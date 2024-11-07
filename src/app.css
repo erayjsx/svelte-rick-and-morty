@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-family: "Satoshi", sans-serif;
+}
+
+html,
+body {
+  font-family: "Satoshi", sans-serif !important;
+}
