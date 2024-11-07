@@ -18,7 +18,7 @@
 <Layout>
   <h1 class="text-3xl font-bold mb-4">Characters</h1>
 
-  <div class="flex flex-wrap gap-4">
+  <div class="flex flex-wrap gap-4 max-sm:gap-1">
     {#each characters?.results as character}
       <a
         href="/characters/12"
